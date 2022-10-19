@@ -14,6 +14,16 @@
     {{ end }}
   </title>
 
+  {{ $beach := resources.Get "img/beach.jpg" }}
+  <meta name="title" content="{{ .Site.Title }}">
+  <meta name="description" content="{{ .Params.description }}">
+  <meta name="og:title" content="{{ .Site.Title }}">
+  <meta name="og:description" content="{{ .Params.description }}">
+  <meta name="og:type" content="website">
+  <meta name="og:url" content="{{ .Permalink }}">
+  <meta name="og:image" content="{{ $beach.RelPermalink }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:image" content="{{ $beach.RelPermalink }}">
 
   {{/* CSS */}}
   {{ $style := resources.Get "css/style.css" | fingerprint }}

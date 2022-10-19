@@ -1,5 +1,6 @@
 ---
 title: "Heal and Connect"
+description: "Therapy for the soul, mind, and body."
 subtitle: "Therapy for the soul, mind, and body"
 welcomeTitle: "Welcome to Heal and Connect"
 welcomeSubtitle: "Finding new ways to connect to ourselves, others and nature."
