@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="canonical" href="{{ .Permalink }}" />
+
+  <meta name="robots" content="index, follow">
+
+  <title>{{ block "title" . }}
+    {{ .Site.Title }}
+    {{ end }}
+  </title>
+
+
+  {{/* CSS */}}
+  {{ $style := resources.Get "css/style.css" | fingerprint }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" integrity="{{ $style.Data.Integrity }}">
+</head>
+
+<body class="w-full">
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+</body>
+
+</html>
