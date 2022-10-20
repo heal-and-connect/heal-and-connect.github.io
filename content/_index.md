@@ -34,4 +34,5 @@ I have a doctorate in Clinical Psychology (DClinPsy) and a foundation in Systemi
 I have worked with many different people presenting with many different problems in their lives
 and I will meet you where you are at.
 
-I am registered with the Health & Care Professions Council (HCPC).
+I am registered with the Health & Care Professions Council (HCPC) and the British Psychological
+Society (BPS).
