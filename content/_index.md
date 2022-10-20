@@ -2,7 +2,7 @@
 title: "Heal and Connect"
 description: "Therapy for the soul, mind, and body."
 subtitle: "Therapy for the soul, mind, and body"
-welcomeTitle: "Welcome to Heal and Connect"
+welcomeTitle: "Therapy in Cornwall"
 welcomeSubtitle: "Finding new ways to connect to ourselves, others and nature."
 intro1: "
 My name is Helen and I am a Chartered Clinical Psychologist with over 10 years experience working
