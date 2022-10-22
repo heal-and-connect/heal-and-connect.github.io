@@ -6,6 +6,20 @@ p {
   @apply pb-4;
 }
 
+/* Navbar */
+
+input#burger:checked ~ #nav #cross-button {
+  @apply block;
+}
+
+input#burger:checked ~ #nav #burger-button {
+  @apply hidden;
+}
+
+input#burger:checked ~ #nav-dropdown {
+  @apply block;
+}
+
 /* Fonts */
 
 @layer base {
